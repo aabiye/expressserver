@@ -23,42 +23,67 @@ const seedRestaurant = [
 
 const seedMenu = [
   {
-    title: 'Appetizer'
+    title: 'Appetizer',
+    //RestaurantId : 1,
   },
   {
-    title: 'Breakfast'
+    title: 'Breakfast',
+    //RestaurantId : 2,
   },
   {
-    title: 'Lunch'
+    title: 'Lunch',
+    //RestaurantId : 3,
   },
   {
-    title: 'Dinner'
+    title: 'Dinner',
+    //RestaurantId : 4,
   },
   {
-    title: 'Drink'
+    title: 'Drink',
+    //RestaurantId : 5,
   },
 
 ]
+
+
 
 const seedItem = [
   {
     name: 'Tibs',
     image: 'someimage.jpg',
     price: 16.50,
-    vegetarian: true
+    vegetarian: true,
+    //MenuId : 3,
   },
   {
     name: 'Doro Wet',
     image: 'someimage.jpg',
     price: 12.99,
-    vegetarian: false
+    vegetarian: false,
+    //MenuId : 1,
   },
   {
     name: 'Veggie Combo',
     image: 'someimage.jpg',
     price: 15.99,
-    vegetarian: true
+    vegetarian: true,
+    //MenuId : 5,
+  },
+  {
+    name: 'Kitfo',
+    image: 'someimage.jpg',
+    price: 15.99,
+    vegetarian: false,
+    //MenuId : 4,
+  },
+  {
+    name: 'Gomen',
+    image: 'someimage.jpg',
+    price: 11.99,
+    vegetarian: true,
+    //MenuId : 2,
   }
+
 ]
 
 //Q: Try to decifer the following function.
